@@ -17,8 +17,8 @@ Website blog nhiều tác giả: khách đọc và tìm bài, thành viên đăn
 Yêu cầu: PHP 8.3+ (bật các extension `gd`, `mbstring`, `openssl`, `pdo_sqlite`, `zip`), Composer.
 
 ```bash
-git clone <địa-chỉ-repo>
-cd <tên-thư-mục>
+git clone https://github.com/minhls12/Blog-laravel.git
+cd Blog-laravel
 composer install
 copy .env.example .env        # Linux/macOS: cp .env.example .env
 php artisan key:generate
